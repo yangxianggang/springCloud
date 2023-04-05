@@ -3,7 +3,6 @@ package com.atguigu.springcloud.controller;
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
-import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,7 +15,7 @@ import javax.annotation.Resource;
  * @create 2020-02-18 10:43
  */
 @RestController
-@Slf4j
+
 public class PaymentController
 {
     private final static Logger log = LoggerFactory.getLogger(PaymentController.class);
