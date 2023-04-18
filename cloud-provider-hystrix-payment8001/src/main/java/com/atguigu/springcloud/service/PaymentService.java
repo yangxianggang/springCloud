@@ -22,6 +22,7 @@ public class PaymentService {
      * @return
      */
     public String paymentInfo_OK(Integer id) {
+        //int y=12/0;
         return "线程池:  " + Thread.currentThread().getName() + "  paymentInfo_OK,id:  " + id + "\t" + "O(∩_∩)O哈哈~";
     }
 
